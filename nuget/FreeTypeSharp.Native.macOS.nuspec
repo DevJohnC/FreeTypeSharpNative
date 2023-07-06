@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>FreeTypeSharp.Native.macOS</id>
+        <version>1.0.0</version>
+        <authors>John Carruthers</authors>
+        <summary>Native dependencies for FreeTypeSharp on macOS</summary>
+        <description>FreeTypeSharp is a libfreetype binding for .NET</description>
+
+        <dependencies>
+            <dependency id="FreeTypeSharp" version="1.0.0" />
+        </dependencies>
+    </metadata>
+    
+    <files>
+        <file src="build/libFreeTypeBinding.dylib" target="runtimes/osx/native/libFreeTypeBinding.dylib" />
+    </files>
+</package>
